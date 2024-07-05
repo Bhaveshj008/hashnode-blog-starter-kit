@@ -81,7 +81,7 @@ export const PersonalHeader = () => {
 									})}
 								/>
 							)}
-							{publication.title}
+							{publication.auther.name}
 						</Link>
 					</h1>
 					<ToggleTheme className="md:hidden" />
