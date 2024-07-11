@@ -22,7 +22,7 @@ const AboutAuthor = dynamic(() => import('./about-author'), { ssr: false });
 import { useEmbeds } from '@starter-kit/utils/renderer/hooks/useEmbeds';
 import { loadIframeResizer } from '@starter-kit/utils/renderer/services/embed';
 import { Fragment } from 'react';
-import { BookOpenSVG, HeartSVG } from './icons/svgs';  // Import the HeartSVG icon for reactions
+import { BookOpenSVG, HeartSvg } from './icons/svgs';  // Import the HeartSvg icon for reactions
 // @ts-ignore
 import { triggerCustomWidgetEmbed } from '@starter-kit/utils/trigger-custom-widget-embed';
 import { createPostUrl } from '../utils/urls';
@@ -249,7 +249,8 @@ export const PostHeader = ({ post, morePosts }: Props) => {
 							</span>
 						</div>
 						<div className="ml-3 flex flex-row items-center">
-							<HeartSVG className="mr-1.5 inline-block h-5 w-5 text-slate-400 dark:text-slate-500" />
+						<HeartSvg className="mr-1.5 inline-block h-5 w-5 text-slate-400 dark:text-slate-500" />
+
 							<span className="text-sm text-slate-600 dark:text-slate-400">
 								{post.totalReactions} reactions
 							</span>
