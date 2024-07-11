@@ -47,7 +47,7 @@ import ShareSVGV2 from './ShareSVGV2';
 import WhatsappSVG from './WhatsappSVG';
 import AlertSVG from './AlertSVG';
 import HeartSvg from './HeartSvg';
-import BookOpenSVG from './BookOpenSVG';
+
 
 export {
 	ArticleSVG,
@@ -98,7 +98,6 @@ export {
 	ShareSVGV2,
 	WhatsappSVG,
 	AlertSVG,
-	HeartSvg,
-	BookOpenSVG
+	HeartSvg
 
 };
