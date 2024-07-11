@@ -90,10 +90,10 @@ type Comment implements Node {
   content: Content!
   dateAdded: DateTime!
   id: ID!
-  myTotalReactions: Int!
+  reactionCount: Int!
   replies(after: String, first: Int!): CommentReplyConnection!
   stamp: String
-  totalReactions: Int!
+  reactionCount: Int!
 }
 
 type CommentReplyConnection implements Connection {
@@ -1149,9 +1149,9 @@ type Reply implements Node {
   content: Content!
   dateAdded: DateTime!
   id: ID!
-  myTotalReactions: Int!
+  reactionCount: Int!
   stamp: String
-  totalReactions: Int!
+  reactionCount: Int!
 }
 
 input RescheduleDraftInput {
