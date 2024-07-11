@@ -46,8 +46,6 @@ import RedditSVGV2 from './RedditSVGV2';
 import ShareSVGV2 from './ShareSVGV2';
 import WhatsappSVG from './WhatsappSVG';
 import AlertSVG from './AlertSVG';
-import HeartSvg from './HeartSvg';
-
 
 export {
 	ArticleSVG,
@@ -97,7 +95,5 @@ export {
 	RedditSVGV2,
 	ShareSVGV2,
 	WhatsappSVG,
-	AlertSVG,
-	HeartSvg
-
+	AlertSVG
 };

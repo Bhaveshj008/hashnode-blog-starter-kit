@@ -22,7 +22,7 @@ const AboutAuthor = dynamic(() => import('./about-author'), { ssr: false });
 import { useEmbeds } from '@starter-kit/utils/renderer/hooks/useEmbeds';
 import { loadIframeResizer } from '@starter-kit/utils/renderer/services/embed';
 import { Fragment } from 'react';
-import { BookOpenSVG, HeartSvg } from './icons/svgs';
+import { BookOpenSVG } from './icons/svgs';
 // @ts-ignore
 import { triggerCustomWidgetEmbed } from '@starter-kit/utils/trigger-custom-widget-embed';
 import { createPostUrl } from '../utils/urls';
@@ -229,7 +229,6 @@ export const PostHeader = ({ post, morePosts }: Props) => {
 									<span className="mx-3 block font-bold text-slate-500">&middot;</span>
 									<p className="flex flex-row items-center text-slate-700 dark:text-slate-400">
 										<BookOpenSVG className="mr-2 h-5 w-5 fill-current opacity-75" />
-										<HeartSvg className="mr-2 h-5 w-5 fill-current opacity-75" />
 										<span>{post.readTimeInMinutes} min read</span>
 									</p>
 								</>
